@@ -1,14 +1,14 @@
 {
-  "name": "fill-pdf",
+  "name": "fill-pdf-iconv-lite",
   "version": "0.1.4",
-  "description": "Fill out pdf forms",
+  "description": "Fill out pdf forms (fork of fill-pdf using iconv-lite)",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/dommmel/fill-pdf"
+    "url": "git://github.com/phoenix741/fill-pdf"
   },
   "keywords": [
     "pdf",
@@ -16,14 +16,14 @@
     "utf8",
     "pdftk"
   ],
-  "author": "Dominik Heier <dominik.heier@gmail.com> (http://www.flexify.net/)",
+  "author": "Dominik Heier <dominik.heier@gmail.com> (http://www.flexify.net/), Ulrich van Den Hekke <ulrich.vdh@shadoware.org>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dommmel/fill-pdf/issues"
+    "url": "https://github.com/phoenix741/fill-pdf/issues"
   },
-  "homepage": "https://github.com/dommmel/fill-pdf",
+  "homepage": "https://github.com/phoenix741/fill-pdf",
   "dependencies": {
-    "iconv": "~2.1.4",
+    "iconv-lite": "~0.4",
     "temp": "~0.8.1"
   },
   "devDependencies": {
